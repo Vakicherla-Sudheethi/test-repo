@@ -1,0 +1,36 @@
+Connection Bw Front end and Backend
+-----------------------------------------------------
+Angular(front end) it cannot directly connect to DB
+we use Middleware
+
+
+angular -----------------> middleware ----------------->Database
+(Front end )                      (API)                                        (MSSQL)
+
+-to build API we can use ASP DOT NET,java and Node also
+
+Mobile APP (flutter)       HTTP
+Front end(Angular)    -------------> Middleware ----------->database
+Front end (React)
+
+
+-once we build API the advantage As it is RESTful service or HTTP service , that Service is connected to different client application . 
+
+as we connect API to any technology .How do they communicate ?
+-----------------------------------------
+>As Angular can understand and API can also understand JSON 
+
+ JSON helps organize the information, and HTTP makes sure it gets from one place to another over the internet. Together, they're like sending well-packaged letters back and forth between your computer and another one
+
+when an API is communicate with any client, they just communicated via HTTP and they use data exchanging in between JSON.
+
+What are the open standards it uses to communicate client to API & API to client?
+-----------------------------------------------------------------------------------------------------------------
+It uses HTTP and Jason HTTP for communication.
+JSON is for data exchange, so these are called as what open standard protocols.
+
+when an API is communicate with any client, they just communicated via HTTP and they use data exchanging in between JSON.
+
+As Angular doenst understand C# so we go with HTTP and JSON
+
+when your ASP.NET Core backend wants to send a message back to your Angular frontend, it writes a "letter" in the same special language (creates JSON data). This "letter" is then sent back to Angular, which can easily read and understand the information inside.

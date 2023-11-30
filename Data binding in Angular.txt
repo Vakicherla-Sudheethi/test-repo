@@ -1,0 +1,37 @@
+Data binding in Angular
+--------------------------------
+
+View ----------------------->model
+          one way binding
+
+-any application data binding is imp i.e binding the model data to view template or update model data from the view
+-binding the data from source to destination and vice -versa
+-----------------------------------------------------------------------------------------------------------
+-its core concept of anular used to define communication bw component and view
+-it is a technique to link your data to your view
+
+
+component.html (view)  <-----------------------component.ts(data is defined here)
+                                                  one way binding                              (data is variable or any )                         
+
+-one way binding is binding component to the view
+-You can say that data binding is communication bw typescript code of component and your template(view) which user sees
+-there are two data binding 
+1.One -way
+2.Two -way
+
+>its a one way communication where html template is changed when we make changes in TS or the value of model is used in the view but you cant update the view from the mode i.e vice versa is not possible
+The data communcation bw compnent and view
+Implementation:
+----------------------
+there are 3 ways to implememt One and two way
+1.string interpolation:
+ It's a technique used in frameworks like Angular to display data. It allows you to embed expressions in string literals, often denoted by placeholders like {{ data }}.
+Usage: Mainly to display dynamic data in templates.
+its one way binding technique 
+used to op the data 
+2.property binding:We find a property of a DOM elememnts or (HTML elements) we bind a HTMl property to a feild with defined property in TS 
+3.event binding
+4.two way data binding
+
+>to implememt one way we use 1,2,3

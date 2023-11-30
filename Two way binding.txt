@@ -1,0 +1,19 @@
+Two way binding
+----------------------
+automatics syncorhnization from component and view 
+changes are reflected in both ways
+Data------>view
+        <-----
+-update in model to view and view to model
+-------------------------------------------------------------------------
+using of two way binding
+=====================
+>in one way the change in view doent have change in model 
+so to overcome this we use two way
+-[(ngModel)] is a built in directive 
+-a compoent contains decorator there we can add built in classes 
+-whenever you add two way 
+we implement to entire verison 
+so now we use only to the component so that we use the formsModule
+------------------------------------------------------------------------------------------------------------------
+

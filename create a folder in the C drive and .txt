@@ -1,0 +1,14 @@
+create a folder in the C drive and now create another folder called angular on that create another folder called  HandsOn
+In command prompt
+ng new angular-assignment-one (for creating a new folder for project)
+select CSS
+N + press enter 
+----pacakages will get installed---
+(After successful installation)
+cd angular-assignment-one 
+code . (to open the code in VS code)
+-----------------------------------------------------------------------------------
+in VS code
+=========
+ng serve -o (to check i.e app is running in browser or not)
+ng g component demo1 (to create a component)

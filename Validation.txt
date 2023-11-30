@@ -1,0 +1,92 @@
+validate the forms in angular
+=============================
+1.template driven form
+----------------------
+we design and validate in html file
+these are simple,quick to get started and
+perfect for simple forms
+
+one disadvantage is that
+the business rule and http are coupled and 
+no unit tetsing is performed
+
+we can use only directives.to 
+create ,access and validate form elements
+to bind data to view we use FORMS Module
+
+1.NgModel
+2.NgModelGroup
+3.NgForm-represent entire form ,here we have bind 
+ngForm object to local ref variable 
+#userForm
+-it contains entire form info
+and we can use validators
+we can do that in validate in 2 ways
+1.built in
+---------
+require
+minLength
+maxLength
+pattern
+email
+2.custom validation
+---------------------
+like booking date or order date
+like we need to do the validation based on 
+our requirement
+
+to make use of NgModel and NgForm we
+use the FORMS 
+module
+
+NgSubmit--its an event
+NgForm
+NgSubmit
+we use these !! 
+-------------------------------------------
+2.reactive form
+the developer builds all the control and logi
+of validation of form
+in component typescript file.
+
+we dont use forms module to bind the data 
+from the view.
+
+we use a FormGroup,FormControlName,
+
+we create a form by usig formGroup class
+within the form we define form controls 
+and we give validators.
+
+we use ngOnInit--life cycle method
+this method invokes after constuctor is 
+invoked.
+we do validations within the control.
+
+{FormGroup}--is the object of form
+{FormBuilder}
+{Validators} we need to import these
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+TYPE SCRIPT
+--------------
+- some basically TypeScript is like a scripting language is it is like a programming language that we can use it client side like C sharp is also a programming language.
+-Java is also a programming language, but C sharp and Java.
+-We are using it server side whereas JavaScript is a programming language.
+-TypeScript TypeScript is a client side programming language.
+-We are using TypeScript in angular application development.
+- in angular application to write business logic in client side also you're going to write logic right
+-Without typeScript we cannot use the angular
+-type script is superset of Java script to execute this we use browser that has java VIT engine
+-by using browser and without browser we can run RUN i.e we use NODE JS(Run time for java based applications)
+-we cannot run Type script directly from broswer as it has only java interpreters
+
+Type script ---->compile ------->generates the JS(this can be executed)
+File.ts                    [TSC]                File.js
+
+-TSC->Type Script Compiler
+
+ first you're going to write TypeScript and once you compile it, it will generate a JavaScript.
+>further this JavaScript code, either you can execute using browser or node because you can't execute this TypeScript to code directly to execute a TypeScript to code faster you compile so it will generate a JavaScript and that JavaScript you can either execute by using browser or you can use node.
+>That means whatever the features you use in JavaScript, all we can use in TypeScript, it is a language designed for large scale JavaScript application development.
+>the TypeScript we are using in angular application development and in coming days we are using angular.We are using TypeScript for React applications as well.
+
+TypeScript is the ES6 version of JS
+
+-----------------------------------------------------
+Version of type Script 
+ we use node to develop JS
+
+
+
+-------------------------------------------------------
+getting started with JS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Type Script is an open source and its client side OOPS language 
+-We can create classes,Objects and We can access members ,inheriatnce etc
+

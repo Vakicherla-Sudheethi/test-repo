@@ -1,0 +1,111 @@
+Angular
+=========
+-in angular we write programming by typeScript
+-Angular is an open-source ,JS based client side framwork to build web applications.
+-Angular is one of the best frameworks for developing SPA or SPA applications
+-It was build by google 
+-Angular is
+1.an MVC based structure framework
+**2.A framework for developing SPA based application
+(by usinh HTML we can create a MPA)
+3.Supports client-side templating features.
+4.provides us a facility to perform unit test so that our code can be tested before deployment.
+-FOR TESTING WE USE "JASMINE" framework
+--------------------------------------------------------------------
+Single page application and multiple page application
+================================================
+-An SPA is a web application or website that loads all necessary resources (HTML, CSS, JavaScript) upon the initial visit to the website. Subsequent interactions and content updates occur dynamically without fully reloading the page.
+-Website which provides users a very fluid ,reactive and fast experince similar to a dektop application.
+-dynamically the content changes within the same page.
+-its more faster behind its reactive and fast speed.
+Eg:Zomato,Notepad etc
+>whenever we change from one page to application then the only content is changed and the whole content is same
+>only one page and the only content is updated as per there the only page is renderd
+
+- An MPA is a traditional web application where each interaction or request with the server results in loading an entirely new page from the server.i.e MVC we've used is a MPA
+>whenever we sent a req,the whole page renders to a new content pages.
+eg:Banking,Health etc.
+>the one page and the whole content is rendered.
+
+****SPA gives rich experince  to users******
+---------------------------------------------------------------------
+Building a SPA in Angular
+=====================
+
+-every component represents one UI element i.e collection of elemements
+
+
+-install node,TS,VS code
+-isntall ANGULAR CLI to run angular project
+
+Angular CLI 
+===================
+-Its a command line is a command line tool that can aid in creating new angular projects from scratch or adding various elements to an existing angular application.
+-Without CLI its very difficult to develop angular ,it makes development way more fast
+
+-this tool is not essential for building an angular project ,but it does provide several benefits,especially the ones who doesnt have experince 
+
+command to install angular 
+1.>npm install -g @angular/cli
+2.ng version
+
+after installing a angular
+1.create a folder in the C drive and now create another folder called angular on that create another folder called  HandsOn
+2.C:\Hexaware\Angular\HandsOn>ng new my-first-angular-app
+? Which stylesheet format would you like to use? CSS
+? Do you want to enable Server-Side Rendering (SSR) and Static Site
+Generation (SSG/Prerendering)? No
+3.>cd my-first-angular-app
+4.ng serve
+5.\my-first-angular-app>code .//to open in VS code
+-----------------------------------------------------------------------------
+
+in vs code
+1.ng serve -o
+2.ng serve --port 5200 -o
+-----------------------------------------------------------------
+create a command
+ng g component my-component -a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

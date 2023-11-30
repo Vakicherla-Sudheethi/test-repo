@@ -1,0 +1,14 @@
+Event handling in angular
+----------------------------------
+
+Event is an action which fires when something happens
+handler is a method which invokes an event fire
+
+event handling is a concept of invoking methods by firing the events
+eg:
+click-when user click the button
+change -when value changes in text box or drop down list
+focus-when control(textbox ,radio etc)gets focus
+keypress
+keydown
+mouseover-when hover the mouse on the image

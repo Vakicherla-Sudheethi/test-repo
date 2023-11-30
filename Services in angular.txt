@@ -1,0 +1,31 @@
+Services in angular
+--------------------------
+-we use it to build API - as to write business logic
+that business logic we can use across multiple controllers
+-similarly in agular we have service class
+-once we write funcationality in multi class we can expose that to angular application
+
+-Services are great way to share nfo bw the components without knowing to each other
+
+app-----> comp1--------->service
+      ------->comp2
+
+-we use the same code in muliple compnents in that case services we use and we use services among variours components.
+
+Features of services:
+=================
+1.)Typescript classes with injectable decorators.
+2)services are used to share a single piece of code accross multiple components 
+3)components used to display and present the data .services use to fetch the data from the API
+4)services are used to interact with the backend API.
+
+-services is a class .decorated with injectable component, thereshare the same piece pf code that holds the bisness logic and interact with backend and share among the components 
+
+-services are SINGLETON.one instance is created and we use by building bblock of every app
+-services are part of module i.e part of component and you'll have ti specify the array in module
+
+>ng g service nameOfService
+
+
+
+

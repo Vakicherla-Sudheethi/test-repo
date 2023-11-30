@@ -1,0 +1,39 @@
+making a class in angular
+--------------------------------
+>ng g class class-name
+a class file is created
+the in employee.ts
+add
+export class Employee {
+
+    //variables /properties
+
+    public Id?:number;
+    public name?:string;
+    public designation?:string;
+    public email?:string;
+    public mobile?:string;
+    public joinDate?:Date;
+    public salary?:number;
+}
+
+lateer in demo3.component.html
+
+p>demo3 works!</p>
+<div class="container">
+<h1>Employee Details</h1>
+<h1>{{obj.name}}</h1>
+<pre>
+    Id:{{obj.Id}}
+    Name:{{obj.name}}
+    Email:{{obj.email}}
+    Designation:{{obj.designation}}
+    Mobile Number:{{obj.mobile}}
+    Salary:{{obj.salary}}
+    Joining Date:{{obj.joinDate}}
+</pre>
+
+</div>
+later add path in app.route.ts
+{path:'demo3',component:Demo3Component}
+ and run 

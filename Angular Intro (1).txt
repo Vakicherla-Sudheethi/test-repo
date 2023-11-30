@@ -1,0 +1,31 @@
+Angular
+-----------
+It runs on type script
+-AngularJS is a JavaScript framework written in JavaScript.
+>Client base Application - it runs with in browser
+>Server base application - ASP .NET CORE MVC,ASP .NET CORE API,SPRING BOOT,PHP
+-Browser is a tool through whuc we make req through API
+-Server side applications run on web server like MVC,Kestral or ISS express
+-when ever we click on start in code it uses Kestral or IIS server 
+we also use TomCat Apache which is used in real time
+-with out websever we cannot use server side application
+-the port that we get is the kestral webserver i.e local host// etc
+
+>Kester runs on windows,mac and linux but IIS is only on windows to run applcations
+
+>By using html we use static web page,like college web site
+the server is not required for this .
+>A clinet side application runs in the browser without server i.e ANGULAR,REACT,VIEW,NODE etc are diff frameworks
+>and when it uses server we call it server side application i.e ASP DOT NET,CORE
+
+
+to run angular we need browser 
+
+
+---------------------------------------------------
+Technologies we require to wokr with angular
+1.html
+2.css
+3.bootsrap
+
+-----------------------------------------------------

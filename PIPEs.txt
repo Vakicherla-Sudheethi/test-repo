@@ -1,0 +1,7 @@
+PIPEs
+------
+feature in angular
+we can format output data
+these are used in view template in |
+we can create our own pipe
+ng g pipe pipename
